@@ -4,6 +4,7 @@
 Raw data files annotated using MG-RAST.
 
 MG-RAST project link: https://www.mg-rast.org/linkin.cgi?project=mgp93233
+
 NCBI SRA fastq files: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA601162/
 
 Data analysis completed using both phylum and genus levels of taxonomic identification.
