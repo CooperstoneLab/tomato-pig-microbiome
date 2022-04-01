@@ -71,7 +71,7 @@ The data read in chunk below enables loading our data without any outside-of-R h
 
 ```{r}
 # upload metadata
-AllSamples.Metadata <- read_excel("Goggans_etal_2021_tomato_pig_microbiome_WGS.xlsx",
+AllSamples.Metadata <- read_excel("../Goggans_etal_2021_tomato_pig_microbiome_WGS.xlsx",
                                        sheet = "TableS2.SampleMetadata")
 
 str(AllSamples.Metadata)
@@ -100,7 +100,7 @@ str(AllSamples.Metadata)
 Read in genera level data, annotated from MG-RAST. In "Genera" tab of Supplementary Information.
 
 ```{r}
-Genus.AllSamples.Counts <- read_excel("Goggans_etal_2021_tomato_pig_microbiome_WGS.xlsx",
+Genus.AllSamples.Counts <- read_excel("../Goggans_etal_2021_tomato_pig_microbiome_WGS.xlsx",
                                        sheet = "TableS4.Genera")
 
 str(Genus.AllSamples.Counts)
@@ -1878,7 +1878,7 @@ intersect(sig_day14_genera_aldex2$Genera, sig_tomato_genera_aldex2$Genera)
 Read in phyla level data, annotated from MG-RAST. In "Phyla" tab of Supplementary Information.
 
 ```{r}
-Phyla.Counts <- read_excel("Goggans_etal_2021_tomato_pig_microbiome_WGS.xlsx",
+Phyla.Counts <- read_excel("../Goggans_etal_2021_tomato_pig_microbiome_WGS.xlsx",
                                        sheet = "TableS3.Phyla")
 
 str(Phyla.Counts)
