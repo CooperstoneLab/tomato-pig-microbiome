@@ -636,6 +636,58 @@ The most prevalent genera are Prevotella (22.23% average abundance),
 Bacteroides (10.34%), Clostridium (8.56%), Lactobacillus (6.78%) and
 Eubacterium (5.16%).
 
+What is the standard deviation of genera with the highest relative
+abundance?
+
+``` r
+RelAbund.Genus.Filt.zerofilt[1:5, 1:10]
+```
+
+    ##                                 Sample_Name Pig    Diet Time_Point
+    ## 1 ShotgunWGS-ControlPig6GutMicrobiome-Day14   6 Control     Day 14
+    ## 2  ShotgunWGS-ControlPig8GutMicrobiome-Day0   8 Control      Day 0
+    ## 3 ShotgunWGS-ControlPig3GutMicrobiome-Day14   3 Control     Day 14
+    ## 4  ShotgunWGS-TomatoPig14GutMicrobiome-Day7  14  Tomato      Day 7
+    ## 5  ShotgunWGS-ControlPig5GutMicrobiome-Day7   5 Control      Day 7
+    ##   Diet_By_Time_Point Abiotrophia Acaryochloris  Acetivibrio  Acetobacter
+    ## 1     Control Day 14 0.001305713  6.983388e-05 0.0005122869 1.700751e-05
+    ## 2      Control Day 0 0.001347804  9.904370e-05 0.0007097339 2.047538e-05
+    ## 3     Control Day 14 0.001066255  6.914992e-05 0.0005363651 1.553931e-05
+    ## 4       Tomato Day 7 0.001311580  1.090209e-04 0.0008422076 3.412106e-05
+    ## 5      Control Day 7 0.001207244  7.488298e-05 0.0006482261 2.083700e-05
+    ##   Acetohalobium
+    ## 1  0.0002669664
+    ## 2  0.0003268918
+    ## 3  0.0002628733
+    ## 4  0.0003320562
+    ## 5  0.0002852065
+
+``` r
+genera_sd <- RelAbund.Genus.Filt.zerofilt %>%
+  summarize_if(is.numeric, sd)
+
+genera_sd_t <- t(genera_sd)
+genera_sd_t <- as.data.frame(genera_sd_t)
+
+genera_sd_t <- genera_sd_t %>%
+  rename(sd_genera = V1) %>%
+  arrange(-sd_genera)
+
+head(genera_sd_t)
+```
+
+    ##                   sd_genera
+    ## Prevotella       0.05410113
+    ## Lactobacillus    0.04690415
+    ## Streptococcus    0.04033402
+    ## Bacteroides      0.01912817
+    ## Faecalibacterium 0.01902410
+    ## Clostridium      0.01803255
+
+The standard deviations of most prevalent genera are Prevotella (5.4%),
+Bacteroides (1.9%), Clostridium (1.8%), Lactobacillus (4.6%) and
+Eubacterium (1.0%).
+
 ## Rarefaction curves
 
 ### Create tax and OTU tables
@@ -761,6 +813,7 @@ tmp_names  <- names_table %>%
   mutate(Pig = paste0("P", Pig), Day = paste0("D", Day)) %>% 
   unite("Kronas", Type:Day) %>% unite("Sample", Kronas:Pig, remove = F) %>% 
   select(-Pig)
+
 head(tmp_names)
 ```
 
@@ -938,7 +991,7 @@ plot_rarefaction <-  plot_rarefaction + theme_test() +
 plot_rarefaction
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-31-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-32-1.png)<!-- -->
 
 ## Krona plots for exploratory analysis
 
@@ -949,11 +1002,13 @@ used in our analysis.
 
 ``` r
 # Write kronas per samples
-plot_krona(physeq = gut_microbiome, output = "./plots/kronas/per_sample", 
+plot_krona(physeq = gut_microbiome_clean, 
+           output = "kronas/per_sample", 
            variable = "Sample")
 
 # Write kronas per category (Sample type + Day) i.e. Tomato_D7
-plot_krona(physeq = gut_microbiome, output = "./plots/kronas/per_category/", 
+plot_krona(physeq = gut_microbiome_clean, 
+           output = "kronas/per_category", 
            variable = "Kronas")
 ```
 
@@ -1665,7 +1720,7 @@ ggplot(aes(x = `1`, y = `2`, fill = Diet_By_Time_Point)) +
 PCoA_genera_20zeros_allsamples
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-52-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-53-1.png)<!-- -->
 
 ``` r
 ggsave("Figures/BetaDiversity_PCoA_Genera_allsamples.png", 
@@ -1706,7 +1761,7 @@ ggplot(aes(x = `1`, y = `2`, fill = Diet_By_Time_Point)) +
 PCoA_genera_20zeros_facetbytime
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-55-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-56-1.png)<!-- -->
 
 ``` r
 ggsave("Figures/BetaDiversity_PCoA_Genera_FacetByTimePoint.png", 
@@ -1740,7 +1795,7 @@ ggplot(aes(x = `1`, y = `2`, fill = Diet_By_Time_Point)) +
 PCoA_genera_20zeros_facetbydiet
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-57-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-58-1.png)<!-- -->
 
 ``` r
 ggsave("Figures/BetaDiversity_PCoA_Genera_FacetByDiet.png", 
@@ -1801,7 +1856,7 @@ ggplot(aes(x = `1`, y = `2`, fill = Time_Point)) +
        subtitle = "Genera Level, Control Samples Only")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-61-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-62-1.png)<!-- -->
 
 #### Tomato only
 
@@ -1846,7 +1901,7 @@ ggplot(aes(x = `1`, y = `2`, fill = Time_Point))+
        subtitle = "Genera Level, Tomato Samples Only")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-64-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-65-1.png)<!-- -->
 
 #### Day 0 Only
 
@@ -1884,7 +1939,7 @@ ggplot(aes( x= `1`, y = `2`, fill = Diet))+
        subtitle = "Genera Level, Day 0 Only")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-66-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-67-1.png)<!-- -->
 
 #### Day 7 Only
 
@@ -1922,7 +1977,7 @@ ggplot(aes( x= `1`, y = `2`, fill = Diet))+
        subtitle = "Genera Level, Day 7 Only")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-68-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-69-1.png)<!-- -->
 
 #### Day 14 Only
 
@@ -1959,7 +2014,7 @@ ggplot(aes( x= `1`, y = `2`, fill = Diet))+
        subtitle = "Genera Level, Day 14 Only")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-70-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
 
 ## Alpha Diversity
 
@@ -2178,7 +2233,7 @@ alpha.diversity.genera.bydiet <- genera.filt.div.df.meta %>%
 alpha.diversity.genera.bydiet
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-75-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-76-1.png)<!-- -->
 
 ``` r
 ggsave("Figures/AlphaDiversityGenera_ByDiet_Boxplot.png", 
@@ -2213,7 +2268,7 @@ alpha.diversity.genera.bytime <- genera.filt.div.df.meta %>%
 alpha.diversity.genera.bytime
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-77-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-78-1.png)<!-- -->
 
 ``` r
 ggsave("Figures/AlphaDiversityGenera_ByTime_Boxplot.png", 
@@ -2540,7 +2595,7 @@ hist(filt.Genera.Day0.ByDiet.aldex$we.eBH,
      xlab = "Benjamini Hochberg corrected p-value (we.eBH)")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-87-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-88-1.png)<!-- -->
 
 `we.eBH` is the Benjamini-Hochberg corrected p-value, no significantly
 different genera at day 0.
@@ -2618,7 +2673,7 @@ hist(filt.Genera.Day7.ByDiet.aldex$we.eBH,
      xlab = "Benjamini Hochberg corrected p-value (we.eBH)")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-92-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-93-1.png)<!-- -->
 
 What is the directionality of the change?
 
@@ -2703,7 +2758,7 @@ hist(filt.Genera.Day14.ByDiet.aldex$we.eBH,
      xlab = "Benjamini Hochberg corrected p-value (we.eBH)")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-98-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
 
 How many significant genera are there?
 
@@ -2880,7 +2935,7 @@ hist(filt.Genera.Control.ByTime.aldex$glm.eBH,
      xlab = "Benjamini Hochberg corrected p-value (glm.eBH)")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-106-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-107-1.png)<!-- -->
 
 How many significantly different genera are there?
 
@@ -2992,7 +3047,7 @@ hist(filt.Genera.Tomato.ByTime.aldex$glm.eBH,
      xlab = "Benjamini Hochberg corrected p-value (glm.eBH)")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-113-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-114-1.png)<!-- -->
 
 How many significantly different genera are there?
 
@@ -3234,7 +3289,7 @@ hist(counting_zeros_phyla_df$counting_zeros_phyla,
      ylab = "Frequency")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-122-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
 
 Big first bar is many phyla which have zero missing values.
 
@@ -3263,7 +3318,7 @@ hist(counting_zeros_phyla_df_missingval$counting_zeros_phyla,
      ylab = "Frequency")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-124-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-125-1.png)<!-- -->
 
 ``` r
 # create table of number of phyla with more than 1 missing value
@@ -3588,6 +3643,50 @@ phyla_means_t %>%
 The most prevalent phyla are Firmicutes (52.7% average abundance),
 Bacteroidetes (35.4%), Actinobacteria (4.7%), Proteobacteria (3.9%) and
 Fusobaceria (0.43%).
+
+What is the standard deviation of phyla with the highest relative
+abundance?
+
+``` r
+RelAbund.Phyla.Filt.zerofilt[1:5, 1:10]
+```
+
+    ## # A tibble: 5 × 10
+    ##   Sample_Name              Pig   Diet  Time_Point Diet_By_Time_Po… Acidobacteria
+    ##   <chr>                    <fct> <fct> <fct>      <fct>                    <dbl>
+    ## 1 ShotgunWGS-ControlPig6G… 6     Cont… Day 14     Control Day 14        0.000741
+    ## 2 ShotgunWGS-ControlPig8G… 8     Cont… Day 0      Control Day 0         0.000885
+    ## 3 ShotgunWGS-ControlPig3G… 3     Cont… Day 14     Control Day 14        0.000690
+    ## 4 ShotgunWGS-TomatoPig14G… 14    Toma… Day 7      Tomato Day 7          0.000732
+    ## 5 ShotgunWGS-ControlPig5G… 5     Cont… Day 7      Control Day 7         0.000656
+    ## # … with 4 more variables: Actinobacteria <dbl>, Apicomplexa <dbl>,
+    ## #   Aquificae <dbl>, Ascomycota <dbl>
+
+``` r
+phyla_sd <- RelAbund.Phyla.Filt.zerofilt %>%
+  summarize_if(is.numeric, sd)
+
+phyla_sd_t <- t(phyla_sd)
+phyla_sd_t <- as.data.frame(phyla_sd_t)
+
+phyla_sd_t <- phyla_sd_t %>%
+  rename(sd_phyla = V1) %>%
+  arrange(-sd_phyla)
+
+head(phyla_sd_t)
+```
+
+    ##                   sd_phyla
+    ## Bacteroidetes  0.059401369
+    ## Firmicutes     0.055579086
+    ## Actinobacteria 0.018163420
+    ## Proteobacteria 0.012837716
+    ## Euryarchaeota  0.001445649
+    ## Cyanobacteria  0.001357954
+
+The standard deviations of most prevalent phyla are Firmicutes (5.5%
+average abundance), Bacteroidetes (5.9%), Actinobacteria (1.8%),
+Proteobacteria (1.2%) and Fusobaceria (8.5 x 10^4%).
 
 What percent of the reads are from Bacteria?
 
@@ -4122,7 +4221,7 @@ ggplot(aes(x=`1`, y=`2`, fill = Diet_By_Time_Point)) +
 PCoA_phyla_20zeros_allsamples
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-147-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-149-1.png)<!-- -->
 
 ``` r
 ggsave("Figures/BetaDiversity_PCoA_Phyla_allsamples.png", 
@@ -4163,7 +4262,7 @@ ggplot(aes(x=`1`, y=`2`, fill = Diet_By_Time_Point)) +
 PCoA_phyla_20zeros_facetbytime
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-150-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-152-1.png)<!-- -->
 
 ``` r
 ggsave("Figures/BetaDiversity_PCoA_Phyla_FacetByTimePoint.png", 
@@ -4197,7 +4296,7 @@ ggplot(aes(x=`1`, y=`2`, fill = Diet_By_Time_Point)) +
 PCoA_phyla_20zeros_facetbydiet
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-152-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-154-1.png)<!-- -->
 
 ``` r
 ggsave("Figures/BetaDiversity_PCoA_Phyla_FacetByDiet.png", 
@@ -4261,7 +4360,7 @@ ggplot(aes(x=`1`, y=`2`, fill = Time_Point)) +
        subtitle = "Phyla Level, Control Only")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-156-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-158-1.png)<!-- -->
 
 #### Tomato only
 
@@ -4311,7 +4410,7 @@ ggplot(aes(x=`1`, y=`2`, fill = Time_Point)) +
        subtitle = "Phyla Level, Tomato Only")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-159-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-161-1.png)<!-- -->
 
 #### Day 0 Only
 
@@ -4354,7 +4453,7 @@ d0.scale.phyla.filt.zerofilt.df %>%
        subtitle = "Phyla Level, Day 0 Only")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-161-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-163-1.png)<!-- -->
 
 #### Day 7 Only
 
@@ -4397,7 +4496,7 @@ d7.scale.phyla.filt.zerofilt.df %>%
        subtitle = "Phyla Level, Day 7 Only")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-163-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-165-1.png)<!-- -->
 
 #### Day 14 Only
 
@@ -4439,15 +4538,16 @@ d14.scale.phyla.filt.zerofilt.df %>%
        subtitle = "Phyla Level, Day 14 Only")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-165-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-167-1.png)<!-- -->
 
-## Bacteriodetes, Firmicutes, and B to F
+## Bacteroidota/Bacteriodetes, Bacilotta/Firmicutes, and their ratio
 
-Given a priori interest in the phyla Bacteriodetes and Firmicutes, we
-are conducted repeated measures ANOVA analysis for their changes in our
-samples. The ratio of Bacteriodetes to Firmicutes (B to F) is a commonly
-used metric for assessing the health of the microbiome, with a higher B
-to F being more beneficial.
+Given a priori interest in the phyla Bacteroidota/Bacteriodetes and
+Bacilotta/Firmicutes, we are conducted repeated measures ANOVA analysis
+for their changes in our samples. The ratio of Bacteroidota to Bacilotta
+is a commonly used metric for assessing the health of the microbiome,
+with a higher Bacteroidota to Bacilotta (formerly B to F) ratio being
+more beneficial.
 
 ### Wrangling
 
@@ -4459,7 +4559,7 @@ dim(RelAbund.Phyla.Filt.zerofilt)
 
 60 samples, and 45 phyla (5 columns are metadata).
 
-Re-level Time\_Point
+Re-level `Time_Point`
 
 ``` r
 RelAbund.Phyla.Filt.zerofilt <- RelAbund.Phyla.Filt.zerofilt %>%
@@ -4570,7 +4670,7 @@ RelAbund.Phyla.Filt.zerofilt.withother.BtoF.long.BFandOther %>%
         strip.background = element_blank())
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-171-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-173-1.png)<!-- -->
 
 ### B to F Ratio
 
@@ -4611,9 +4711,9 @@ BtoF_Boxplot <- RelAbund.Phyla.Filt.zerofilt.withother.BtoF.long.BtoF %>%
         axis.text.y = element_text(color = "black"), 
         panel.grid.minor = element_blank()) +
   labs(x=NULL, 
-       y= "Bacteroidetes to Firmicutes", 
+       y= "Bacteroidota to Bacillota", 
        fill="Diet & Time Point",
-       title = "Ratio of Bacteroidetes to Firmicutes") 
+       title = "Ratio of Bacteroidota to Bacillota") 
 
 BtoF_Boxplot
 ```
@@ -4622,12 +4722,12 @@ BtoF_Boxplot
 
     ## Warning: Removed 5 rows containing missing values (geom_point).
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-172-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-174-1.png)<!-- -->
 
 Saving
 
 ``` r
-ggsave("Figures/BtoFRatio_Boxplot.png", 
+ggsave("Figures/BacteroidotatoBacilottaRatio_Boxplot.png", 
        plot = BtoF_Boxplot, 
        dpi = 800, 
        width = 7, 
@@ -4742,6 +4842,9 @@ RelAbund.Phyla.Filt.zerofilt.withother.BtoF.long.OnlyBandF <-
   RelAbund.Phyla.Filt.zerofilt.withother.BtoF.long %>%
     filter(phylum == "Bacteroidetes" | phylum == "Firmicutes")
 
+btof.labs <- c("Bacteroidota", "Bacillota")
+names(btof.labs) <- c("Bacteroidetes", "Firmicutes")
+
 BandF_Boxplot <- RelAbund.Phyla.Filt.zerofilt.withother.BtoF.long.OnlyBandF %>%
   ggplot(aes(x=Diet, y=rel_abund, fill=Diet_By_Time_Point))+
   geom_boxplot(outlier.shape = NA)+
@@ -4749,7 +4852,7 @@ BandF_Boxplot <- RelAbund.Phyla.Filt.zerofilt.withother.BtoF.long.OnlyBandF %>%
   scale_fill_manual(values=c("skyblue1", "dodgerblue", "royalblue4", "sienna1","firebrick3","tomato4"))+
   ylim(0, 0.75) +
   theme_bw() +
-  facet_wrap("phylum")+
+  facet_wrap(~phylum, labeller = labeller(phylum = btof.labs))+
   labs(x=NULL, y= "Relative Abundance", fill="Diet & Time Point") +
   theme(axis.text.x = element_text(size = 11, color = "black"), 
         axis.text.y = element_text(color = "black"), 
@@ -4760,12 +4863,12 @@ BandF_Boxplot <- RelAbund.Phyla.Filt.zerofilt.withother.BtoF.long.OnlyBandF %>%
 BandF_Boxplot
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-178-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-180-1.png)<!-- -->
 
 Saving
 
 ``` r
-ggsave("Figures/BacteroidetesAndFirmicutes_Boxplot.png", 
+ggsave("Figures/BacteroidotaBacilotta_Boxplot.png", 
        plot = BandF_Boxplot, 
        dpi = 800, 
        width = 7, 
@@ -5056,7 +5159,7 @@ alpha.diversity.phyla.bydiet <- phyla.filt.div.df.meta %>%
 alpha.diversity.phyla.bydiet
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-192-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-194-1.png)<!-- -->
 
 ``` r
 ggsave("Figures/AlphaDiversityPhyla_ByDiet_Boxplot.png", 
@@ -5086,7 +5189,7 @@ alpha.diversity.phyla.bytime <- phyla.filt.div.df.meta %>%
 alpha.diversity.phyla.bytime
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-194-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-196-1.png)<!-- -->
 
 ``` r
 ggsave("Figures/AlphaDiversityPhyla_ByTime_Boxplot.png", 
@@ -5452,7 +5555,7 @@ hist(filt.Phyla.Day0.ByDiet.aldex$we.eBH,
      xlab = "Benjamini Hochberg corrected p-value (we.eBH)")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-206-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-208-1.png)<!-- -->
 
 `we.eBH` is the Benjamini-Hochberg corrected p-value, and nothing is
 &lt; 0.05
@@ -5530,7 +5633,7 @@ hist(filt.Phyla.Day7.ByDiet.aldex$we.eBH,
      xlab = "Benjamini Hochberg corrected p-value (we.eBH)")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-211-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-213-1.png)<!-- -->
 
 #### Day 14
 
@@ -5600,7 +5703,7 @@ hist(filt.Phyla.Day14.ByDiet.aldex$we.eBH,
      xlab = "Benjamini Hochberg corrected p-value (we.eBH)")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-216-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-218-1.png)<!-- -->
 
 How many significant phyla are there?
 
@@ -5743,7 +5846,7 @@ hist(filt.Phyla.Control.ByTime.aldex$glm.eBH,
      xlab = "Benjamini Hochberg corrected p-value (glm.eBH)")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-224-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-226-1.png)<!-- -->
 
 How many significant phyla are there?
 
@@ -5832,7 +5935,7 @@ hist(filt.Phyla.Tomato.ByTime.aldex$glm.eBH,
      xlab = "Benjamini Hochberg corrected p-value (glm.eBH)")
 ```
 
-![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-230-1.png)<!-- -->
+![](Goggans_TomatoPigMicrobiomeAnalysis_files/figure-gfm/unnamed-chunk-232-1.png)<!-- -->
 
 How many significant phyla are there?
 

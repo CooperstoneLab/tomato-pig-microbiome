@@ -10,7 +10,7 @@ NCBI SRA fastq files: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA601162/
 Data analysis completed using both phylum and genus levels of taxonomic identification.
 
 
-Rmarkdown and knitted HTML file containing all code are included in the repository.
+R Markdown and Github doc containing all code are included in this repository. Input data is in "Goggans_etal_2021_tomato_pig_microbiome_WGS.xlsx"
 
 
 GENERA:
