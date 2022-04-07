@@ -1,0 +1,752 @@
+684543	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella
+443808	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus
+398635	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium
+285480	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides
+233295	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus
+212593	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+188485	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium
+153567	Bacteria	Actinobacteria	Actinobacteria (class)	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium
+143042	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium
+84024	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Dorea
+65074	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Mitsuokella
+58765	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Subdoligranulum
+49820	Bacteria	Actinobacteria	Actinobacteria (class)	Coriobacteriales	Coriobacteriaceae	Atopobium
+43924	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified (derived from Ruminococcaceae)
+41304	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia
+36499	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Acidaminococcaceae	Acidaminococcus
+35798	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Butyrivibrio
+33712	Bacteria	Actinobacteria	Actinobacteria (class)	Coriobacteriales	Coriobacteriaceae	Olsenella
+32504	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
+32041	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus
+25422	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Parabacteroides
+24729	Bacteria	Actinobacteria	Actinobacteria (class)	Coriobacteriales	Coriobacteriaceae	Collinsella
+24361	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified (derived from Clostridiales)	Blautia
+24203	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ethanoligenens
+23924	Bacteria	Firmicutes	Erysipelotrichi	Erysipelotrichales	Erysipelotrichaceae	unclassified (derived from Erysipelotrichaceae)
+23340	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified (derived from Lachnospiraceae)
+20175	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Megasphaera
+19655	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	Desulfitobacterium
+18851	Bacteria	Actinobacteria	Actinobacteria (class)	Coriobacteriales	Coriobacteriaceae	Slackia
+17567	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Alkaliphilus
+17482	Bacteria	Firmicutes	Erysipelotrichi	Erysipelotrichales	Erysipelotrichaceae	Holdemania
+16124	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Dialister
+15986	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified (derived from Clostridiales)	unclassified (derived from Clostridiales)
+15734	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella
+15355	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus
+15260	Bacteria	Firmicutes	Erysipelotrichi	Erysipelotrichales	Erysipelotrichaceae	Catenibacterium
+14806	Bacteria	Actinobacteria	Actinobacteria (class)	Coriobacteriales	Coriobacteriaceae	Eggerthella
+14132	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Selenomonas
+13199	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Anaerotruncus
+12272	Bacteria	Firmicutes	Clostridia	Thermoanaerobacterales	Thermoanaerobacterales Family III. Incertae Sedis	Caldicellulosiruptor
+11160	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
+10794	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	Desulfotomaculum
+9631	Bacteria	Fusobacteria	Fusobacteria (class)	Fusobacteriales	Fusobacteriaceae	Fusobacterium
+8874	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas
+8539	Bacteria	Firmicutes	Clostridia	Thermoanaerobacterales	Thermoanaerobacteraceae	Caldanaerobacter
+8111	Bacteria	Firmicutes	Clostridia	Thermoanaerobacterales	Thermoanaerobacteraceae	Thermoanaerobacter
+7816	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Geobacillus
+7569	Bacteria	Actinobacteria	Actinobacteria (class)	Bifidobacteriales	Bifidobacteriaceae	Gardnerella
+6675	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Oribacterium
+6019	Bacteria	Firmicutes	Bacilli	Bacillales	Listeriaceae	Listeria
+5890	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfuromonadales	Geobacteraceae	Geobacter
+5823	Bacteria	Spirochaetes	Spirochaetes (class)	Spirochaetales	Brachyspiraceae	Brachyspira
+5658	Bacteria	Actinobacteria	Actinobacteria (class)	Coriobacteriales	Coriobacteriaceae	Cryptobacterium
+5638	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+5526	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Anaerostipes
+5172	Bacteria	Spirochaetes	Spirochaetes (class)	Spirochaetales	Spirochaetaceae	Treponema
+5108	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio
+5079	Bacteria	Firmicutes	Clostridia	Clostridiales	Heliobacteriaceae	Heliobacterium
+5026	Bacteria	Fibrobacteres	Fibrobacteres (class)	Fibrobacterales	Fibrobacteraceae	Fibrobacter
+5018	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter
+4967	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales Family XI. Incertae Sedis	Anaerococcus
+4841	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Paludibacter
+4833	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Abiotrophia
+4811	Bacteria	Firmicutes	Clostridia	Thermoanaerobacterales	Thermoanaerobacteraceae	Carboxydothermus
+4747	Bacteria	Firmicutes	Clostridia	Thermoanaerobacterales	Thermoanaerobacteraceae	Moorella
+4527	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	Pelotomaculum
+4230	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Flavobacterium
+4075	Bacteria	Firmicutes	Clostridia	Clostridiales	Syntrophomonadaceae	Syntrophomonas
+3964	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales Family XVIII. Incertae Sedis	Symbiobacterium
+3875	Bacteria	Spirochaetes	Spirochaetes (class)	Spirochaetales	Spirochaetaceae	Spirochaeta
+3865	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Cellulosilyticum
+3813	Bacteria	Chloroflexi	Dehalococcoidetes	unclassified (derived from Dehalococcoidetes)	unclassified (derived from Dehalococcoidetes)	Dehalococcoides
+3801	Bacteria	Firmicutes	Clostridia	Thermoanaerobacterales	Thermoanaerobacterales Family III. Incertae Sedis	Thermoanaerobacterium
+3714	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Shuttleworthia
+3642	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes
+3586	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus
+3324	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Shewanellaceae	Shewanella
+3308	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas
+3253	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales Family XI. Incertae Sedis	Finegoldia
+3171	Bacteria	Bacteroidetes	Sphingobacteria	Sphingobacteriales	Sphingobacteriaceae	Pedobacter
+3158	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Acetivibrio
+3067	Bacteria	Fusobacteria	Fusobacteria (class)	Fusobacteriales	Fusobacteriaceae	Sebaldella
+2983	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Thermosinus
+2959	Bacteria	Fusobacteria	Fusobacteria (class)	Fusobacteriales	Fusobacteriaceae	Ilyobacter
+2947	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	Thermincola
+2935	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Corynebacteriaceae	Corynebacterium
+2904	Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio
+2863	Bacteria	Synergistetes	Synergistia	Synergistales	Synergistaceae	Pyramidobacter
+2760	Bacteria	Thermotogae	Thermotogae (class)	Thermotogales	Thermotogaceae	Thermotoga
+2726	Bacteria	Fusobacteria	Fusobacteria (class)	Fusobacteriales	Fusobacteriaceae	Leptotrichia
+2713	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfuromonadales	Pelobacteraceae	Pelobacter
+2611	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Burkholderia
+2611	Bacteria	Firmicutes	Clostridia	Thermoanaerobacterales	Thermoanaerobacterales Family III. Incertae Sedis	Thermosediminibacter
+2559	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Chroococcales	unclassified (derived from Chroococcales)	Synechococcus
+2554	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Helicobacteraceae	Helicobacter
+2515	Bacteria	Firmicutes	Bacilli	Bacillales	unclassified (derived from Bacillales)	Exiguobacterium
+2492	Bacteria	Firmicutes	Clostridia	Halanaerobiales	Halanaerobiaceae	Halothermothrix
+2469	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales Family XI. Incertae Sedis	Peptoniphilus
+2446	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia
+2425	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Pseudoramibacter
+2391	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanobrevibacter
+2290	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Streptomycetaceae	Streptomyces
+2283	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Actinobacillus
+2204	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Mycobacteriaceae	Mycobacterium
+2185	Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Spirosoma
+2102	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Anaerofustis
+2048	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium
+2042	Bacteria	Bacteroidetes	Sphingobacteria	Sphingobacteriales	unclassified (derived from Sphingobacteriales)	Chitinophaga
+1986	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Capnocytophaga
+1961	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Peptostreptococcus
+1953	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Oceanobacillus
+1950	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina
+1903	Bacteria	Tenericutes	Mollicutes	Mycoplasmatales	Mycoplasmataceae	Mycoplasma
+1901	Bacteria	Firmicutes	Bacilli	Lactobacillales	Leuconostocaceae	Leuconostoc
+1894	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Brevibacillus
+1888	Bacteria	Firmicutes	Clostridia	Natranaerobiales	Natranaerobiaceae	Natranaerobius
+1875	Bacteria	Chloroflexi	Chloroflexi (class)	Chloroflexales	Chloroflexaceae	Roseiflexus
+1821	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Anoxybacillus
+1807	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Pediococcus
+1787	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Actinomycetaceae	Mobiluncus
+1767	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	Candidatus Desulforudis
+1674	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Chroococcales	unclassified (derived from Chroococcales)	Cyanothece
+1668	Bacteria	Firmicutes	Bacilli	Bacillales	Alicyclobacillaceae	Alicyclobacillus
+1652	Bacteria	Firmicutes	Erysipelotrichi	Erysipelotrichales	Erysipelotrichaceae	Coprobacillus
+1595	Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanocorpusculaceae	Methanocorpusculum
+1539	Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Dyadobacter
+1529	Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Myxococcaceae	Anaeromyxobacter
+1500	Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Cytophaga
+1482	Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas
+1475	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Lysinibacillus
+1398	Bacteria	Dictyoglomi	Dictyoglomia	Dictyoglomales	Dictyoglomaceae	Dictyoglomus
+1396	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Actinomycetaceae	Actinomyces
+1383	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus
+1372	Bacteria	Actinobacteria	Actinobacteria (class)	Bifidobacteriales	Bifidobacteriaceae	Parascardovia
+1368	Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanococcaceae	Methanococcus
+1367	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Akkermansia
+1358	Bacteria	Synergistetes	Synergistia	Synergistales	Synergistaceae	Dethiosulfovibrio
+1352	Bacteria	unclassified (derived from Bacteria)	unclassified (derived from Bacteria)	unclassified (derived from Bacteria)	unclassified (derived from Bacteria)	unclassified (derived from Bacteria)
+1337	Bacteria	Firmicutes	Clostridia	Clostridiales	Syntrophomonadaceae	Syntrophothermus
+1322	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Gramella
+1316	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Yersinia
+1302	Bacteria	Acidobacteria	Solibacteres	Solibacterales	Solibacteraceae	Candidatus Solibacter
+1297	Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Leadbetterella
+1270	Bacteria	Firmicutes	Bacilli	Bacillales	Alicyclobacillaceae	unclassified (derived from Alicyclobacillaceae)
+1269	Bacteria	Tenericutes	Mollicutes	Acholeplasmatales	Acholeplasmataceae	Acholeplasma
+1253	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Siphoviridae	unclassified (derived from Siphoviridae)
+1238	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Micrococcaceae	Arthrobacter
+1236	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Frankiaceae	Frankia
+1226	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales Family XVII. Incertae Sedis	Thermaerobacter
+1213	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Leeuwenhoekiella
+1207	Bacteria	Firmicutes	Clostridia	Halanaerobiales	Halobacteroidaceae	Acetohalobium
+1183	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Rhodopseudomonas
+1175	Bacteria	Thermotogae	Thermotogae (class)	Thermotogales	Thermotogaceae	Thermosipho
+1165	Bacteria	Deinococcus-Thermus	Deinococci	Deinococcales	Deinococcaceae	Deinococcus
+1155	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Zunongwangia
+1130	Bacteria	Firmicutes	Erysipelotrichi	Erysipelotrichales	Erysipelotrichaceae	Bulleidia
+1100	Bacteria	Fusobacteria	Fusobacteria (class)	Fusobacteriales	Fusobacteriaceae	Streptobacillus
+1100	Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophaceae	Syntrophus
+1091	Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophobacteraceae	Syntrophobacter
+1084	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Salmonella
+1077	Bacteria	Bacteroidetes	unclassified (derived from Bacteroidetes)	unclassified (derived from Bacteroidetes)	unclassified (derived from Bacteroidetes)	unclassified (derived from Bacteroidetes)
+1072	Bacteria	Firmicutes	Erysipelotrichi	Erysipelotrichales	Erysipelotrichaceae	Turicibacter
+1065	Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Photobacterium
+1049	Bacteria	Firmicutes	Clostridia	Halanaerobiales	Halanaerobiaceae	Halanaerobium
+1047	Bacteria	Actinobacteria	Actinobacteria (class)	Rubrobacterales	Rubrobacteraceae	Rubrobacter
+1042	Bacteria	Chloroflexi	Chloroflexi (class)	Chloroflexales	Chloroflexaceae	Chloroflexus
+1037	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Propionibacteriaceae	Propionibacterium
+1035	Bacteria	Chloroflexi	Thermomicrobia (class)	Sphaerobacterales	Sphaerobacteraceae	Sphaerobacter
+1032	Bacteria	Actinobacteria	Actinobacteria (class)	Bifidobacteriales	Bifidobacteriaceae	Scardovia
+1010	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	Pelodictyon
+994	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobulbaceae	Desulfotalea
+990	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Filifactor
+986	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Rhizobium
+965	Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Neisseria
+944	Bacteria	Firmicutes	Clostridia	Thermoanaerobacterales	Thermoanaerobacteraceae	Ammonifex
+944	Bacteria	Firmicutes	Bacilli	Lactobacillales	Leuconostocaceae	Oenococcus
+934	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Pseudoalteromonadaceae	Pseudoalteromonas
+927	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified (derived from Clostridiales)	Epulopiscium
+901	Bacteria	Synergistetes	Synergistia	Synergistales	Synergistaceae	Aminobacterium
+900	Bacteria	Synergistetes	Synergistia	Synergistales	Synergistaceae	Thermanaerovibrio
+895	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Cupriavidus
+880	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified (derived from Bacteroidales)	Candidatus Azobacteroides
+878	Bacteria	Thermotogae	Thermotogae (class)	Thermotogales	Thermotogaceae	Fervidobacterium
+851	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Xanthomonas
+836	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Actinomycetaceae	Arcanobacterium
+834	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter
+829	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Bordetella
+828	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Polaribacter
+827	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobaculum
+818	Bacteria	Lentisphaerae	unclassified (derived from Lentisphaerae)	unclassified (derived from Lentisphaerae)	Victivallaceae	Victivallis
+817	Bacteria	Deferribacteres	Deferribacteres (class)	Deferribacterales	Deferribacteraceae	Denitrovibrio
+808	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Basfia
+798	Eukaryota	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	Trichomonadida	Trichomonadidae	Trichomonas
+793	Bacteria	Thermotogae	Thermotogae (class)	Thermotogales	Thermotogaceae	Petrotoga
+787	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Nocardiaceae	Rhodococcus
+778	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Acidovorax
+775	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium
+775	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Nostocales	Nostocaceae	Nostoc
+773	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Pectobacterium
+768	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Sinorhizobium
+759	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobacteraceae	Desulfatibacillum
+754	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella
+753	Bacteria	Verrucomicrobia	Opitutae	unclassified (derived from Opitutae)	Opitutaceae	Opitutus
+750	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella
+741	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobacteraceae	Desulfococcus
+732	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Prochlorales	Prochlorococcaceae	Prochlorococcus
+730	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Maribacter
+729	Bacteria	Spirochaetes	Spirochaetes (class)	Spirochaetales	Leptospiraceae	Leptospira
+724	Bacteria	Deinococcus-Thermus	Deinococci	Thermales	Thermaceae	Meiothermus
+715	Bacteria	Bacteroidetes	Sphingobacteria	Sphingobacteriales	Rhodothermaceae	Rhodothermus
+706	Bacteria	Acidobacteria	unclassified (derived from Acidobacteria)	unclassified (derived from Acidobacteria)	unclassified (derived from Acidobacteria)	Candidatus Koribacter
+706	Bacteria	Deinococcus-Thermus	Deinococci	Thermales	Thermaceae	Thermus
+697	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Oxalobacter
+692	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Rhodospirillum
+690	Bacteria	Firmicutes	Clostridia	Clostridiales	Syntrophomonadaceae	Dethiobacter
+678	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobacteraceae	Desulfobacterium
+673	Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Francisellaceae	Francisella
+671	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Histophilus
+671	Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Myxococcaceae	Myxococcus
+670	Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Aliivibrio
+669	Bacteria	Elusimicrobia	Elusimicrobia (class)	Elusimicrobiales	Elusimicrobiaceae	Elusimicrobium
+667	Archaea	Euryarchaeota	Thermococci	Thermococcales	Thermococcaceae	Thermococcus
+665	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae	Marinobacter
+663	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium
+651	Bacteria	Proteobacteria	unclassified (derived from Proteobacteria)	unclassified (derived from Proteobacteria)	unclassified (derived from Proteobacteria)	Magnetococcus
+649	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter
+645	Bacteria	unclassified (derived from Bacteria)	unclassified (derived from Bacteria)	unclassified (derived from Bacteria)	unclassified (derived from Bacteria)	Thermobaculum
+644	Archaea	Euryarchaeota	Thermococci	Thermococcales	Thermococcaceae	Pyrococcus
+643	Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanocaldococcaceae	Methanocaldococcus
+642	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Robiginitalea
+638	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Psychromonadaceae	Psychromonas
+633	Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Oceanospirillaceae	Marinomonas
+628	Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Tolumonas
+624	Bacteria	Proteobacteria	Gammaproteobacteria	unclassified (derived from Gammaproteobacteria)	unclassified (derived from Gammaproteobacteria)	unclassified (derived from Gammaproteobacteria)
+619	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfuromonadales	Desulfuromonadaceae	Desulfuromonas
+618	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfomicrobiaceae	Desulfomicrobium
+615	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter
+615	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Serratia
+609	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	unclassified (derived from Burkholderiales)	unclassified (derived from Burkholderiales)
+606	Bacteria	Cyanobacteria	Gloeobacteria	Gloeobacterales	unclassified (derived from Gloeobacterales)	Gloeobacter
+604	Bacteria	Bacteroidetes	Sphingobacteria	Sphingobacteriales	Sphingobacteriaceae	Sphingobacterium
+603	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Agrobacterium
+597	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Psychrobacter
+596	Bacteria	Aquificae	Aquificae (class)	Aquificales	Aquificaceae	Aquifex
+589	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Citrobacter
+584	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Macrococcus
+583	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Lawsonia
+583	Bacteria	Planctomycetes	Planctomycetacia	Planctomycetales	Planctomycetaceae	Rhodopirellula
+578	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Enterobacter
+577	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Nostocales	Nostocaceae	Anabaena
+576	Bacteria	Chloroflexi	Chloroflexi (class)	Herpetosiphonales	Herpetosiphonaceae	Herpetosiphon
+576	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Chroococcales	unclassified (derived from Chroococcales)	Synechocystis
+575	Bacteria	Thermotogae	Thermotogae (class)	Thermotogales	Thermotogaceae	Kosmotoga
+573	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Magnetospirillum
+567	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae	Saccharophagus
+566	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia
+558	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	unclassified (derived from Flavobacteriaceae)
+555	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella
+547	Bacteria	Aquificae	Aquificae (class)	Aquificales	Hydrogenothermaceae	Sulfurihydrogenibium
+545	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Arcobacter
+544	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	Chloroherpeton
+541	Bacteria	Spirochaetes	Spirochaetes (class)	Spirochaetales	Spirochaetaceae	Borrelia
+539	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Dickeya
+532	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Pantoea
+525	Bacteria	Bacteroidetes	Flavobacteria	unclassified (derived from Flavobacteria)	unclassified (derived from Flavobacteria)	unclassified (derived from Flavobacteria)
+525	Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Chromatiaceae	Nitrosococcus
+525	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Sanguibacteraceae	Sanguibacter
+523	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Promicromonosporaceae	Xylanimonas
+521	Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Hahellaceae	Hahella
+520	Bacteria	Bacteroidetes	Sphingobacteria	Sphingobacteriales	Sphingobacteriaceae	Mucilaginibacter
+506	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Nocardiopsaceae	Thermobifida
+500	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales Family XI. Incertae Sedis	unclassified (derived from Clostridiales Family XI. Incertae Sedis)
+498	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanococcoides
+497	Bacteria	Bacteroidetes	Sphingobacteria	Sphingobacteriales	Rhodothermaceae	Salinibacter
+497	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Micromonosporaceae	Salinispora
+492	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Chroococcales	unclassified (derived from Chroococcales)	Thermosynechococcus
+489	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Microbacteriaceae	Clavibacter
+488	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Photorhabdus
+485	Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Flammeovirgaceae	Marivirga
+485	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Polaromonas
+483	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	Methylococcus
+481	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Kineosporiaceae	Kineococcus
+479	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Pasteurella
+472	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium
+466	Archaea	Euryarchaeota	Archaeoglobi	Archaeoglobales	Archaeoglobaceae	Archaeoglobus
+465	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Idiomarinaceae	Idiomarina
+464	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Pseudonocardiaceae	Saccharopolyspora
+462	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Oscillatoriales	unclassified (derived from Oscillatoriales)	Trichodesmium
+460	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Nocardioidaceae	Nocardioides
+459	Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanomicrobiaceae	Methanoculleus
+457	Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Polyangiaceae	Sorangium
+454	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Cellvibrio
+454	Bacteria	Proteobacteria	Betaproteobacteria	Nitrosomonadales	Nitrosomonadaceae	Nitrosomonas
+449	Bacteria	Deferribacteres	Deferribacteres (class)	Deferribacterales	Deferribacteraceae	Deferribacter
+445	Archaea	Euryarchaeota	unclassified (derived from Euryarchaeota)	unclassified (derived from Euryarchaeota)	unclassified (derived from Euryarchaeota)	unclassified (derived from Euryarchaeota)
+443	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Cronobacter
+441	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Croceibacter
+441	Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanospirillaceae	Methanospirillum
+439	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Roseobacter
+437	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Ruegeria
+436	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanosphaera
+434	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Jonesiaceae	Jonesia
+432	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Proteus
+430	Bacteria	Chloroflexi	Thermomicrobia (class)	Thermomicrobiales	Thermomicrobiaceae	Thermomicrobium
+426	Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanomicrobiaceae	Methanoplanus
+423	Bacteria	Planctomycetes	Planctomycetacia	Planctomycetales	Planctomycetaceae	Planctomyces
+422	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Acidothermaceae	Acidothermus
+417	Bacteria	Nitrospirae	Nitrospira (class)	Nitrospirales	Nitrospiraceae	Thermodesulfovibrio
+416	other sequences	unclassified (derived from other sequences)	unclassified (derived from other sequences)	unclassified (derived from other sequences)	unclassified (derived from other sequences)	unclassified (derived from other sequences)
+416	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Edwardsiella
+405	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Riemerella
+404	Bacteria	Firmicutes	Clostridia	Thermoanaerobacterales	Thermodesulfobiaceae	Coprothermobacter
+403	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	unclassified (derived from Flavobacteriales)	unclassified (derived from Flavobacteriales)
+402	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Erythrobacter
+400	Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Halomonadaceae	Chromohalobacter
+400	Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae	Thioalkalivibrio
+398	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Chryseobacterium
+398	Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	Dechloromonas
+397	Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Chromobacterium
+396	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Mannheimia
+395	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Streptosporangiaceae	Streptosporangium
+394	Bacteria	Actinobacteria	Actinobacteria (class)	Solirubrobacterales	Conexibacteraceae	Conexibacter
+391	Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	Aromatoleum
+386	Bacteria	Acidobacteria	Acidobacteria (class)	Acidobacteriales	Acidobacteriaceae	Acidobacterium
+386	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Aggregatibacter
+386	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanothermobacter
+382	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Brevibacteriaceae	Brevibacterium
+382	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Dokdonia
+377	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Cellulomonadaceae	Cellulomonas
+376	Archaea	Euryarchaeota	unclassified (derived from Euryarchaeota)	unclassified (derived from Euryarchaeota)	unclassified (derived from Euryarchaeota)	Aciduliprofundum
+372	Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	Azoarcus
+362	Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio
+362	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Sulfurospirillum
+359	Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae	Haliangium
+358	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	unclassified (derived from Viruses)	unclassified (derived from Viruses)	unclassified (derived from Viruses)
+358	Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Microscilla
+356	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Chelativorans
+356	Bacteria	Firmicutes	Erysipelotrichi	Erysipelotrichales	Erysipelotrichaceae	Erysipelothrix
+355	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Nocardiaceae	Nocardia
+350	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Helicobacteraceae	Wolinella
+350	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Helicobacteraceae	Sulfurimonas
+349	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Brucella
+349	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
+349	Eukaryota	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	Entamoeba
+348	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium
+347	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Carnobacterium
+347	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfarculales	Desulfarculaceae	Desulfarculus
+347	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfohalobiaceae	Desulfohalobium
+347	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	unclassified (derived from Cyanobacteria)	unclassified (derived from Cyanobacteria)	Acaryochloris
+345	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Erwinia
+343	Bacteria	Planctomycetes	Planctomycetacia	Planctomycetales	Planctomycetaceae	Blastopirellula
+343	Bacteria	Tenericutes	Mollicutes	Acholeplasmatales	Acholeplasmataceae	Candidatus Phytoplasma
+342	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Catonella
+340	Bacteria	Synergistetes	Synergistia	Synergistales	Synergistaceae	Jonquetella
+339	Bacteria	Elusimicrobia	unclassified (derived from Elusimicrobia)	unclassified (derived from Elusimicrobia)	unclassified (derived from Elusimicrobia)	unclassified (derived from Elusimicrobia)
+339	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosaetaceae	Methanosaeta
+336	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Pseudonocardiaceae	Thermobispora
+335	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Herminiimonas
+334	Bacteria	Proteobacteria	Betaproteobacteria	Hydrogenophilales	Hydrogenophilaceae	Thiobacillus
+333	Bacteria	Chloroflexi	Dehalococcoidetes	unclassified (derived from Dehalococcoidetes)	unclassified (derived from Dehalococcoidetes)	Dehalogenimonas
+333	Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae	Thiomicrospira
+331	Bacteria	Chrysiogenetes	Chrysiogenetes (class)	Chrysiogenales	Chrysiogenaceae	Desulfurispirillum
+324	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Shigella
+320	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Jannaschia
+313	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Beutenbergiaceae	Beutenbergia
+312	Bacteria	Deferribacteres	Deferribacteres (class)	Deferribacterales	Deferribacteraceae	Calditerrivibrio
+311	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Parvibaculum
+310	Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	unclassified (derived from Methanomicrobiales)	Methanoregula
+307	Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Rickettsia
+305	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Albidiferax
+303	Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Alcanivoracaceae	Alcanivorax
+301	Bacteria	Proteobacteria	Epsilonproteobacteria	unclassified (derived from Epsilonproteobacteria)	unclassified (derived from Epsilonproteobacteria)	Nitratiruptor
+300	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Acidiphilium
+300	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Nitrobacter
+299	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus
+298	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Colwelliaceae	Colwellia
+297	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobulbaceae	Desulfurivibrio
+294	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Verminephrobacter
+293	Bacteria	Proteobacteria	Epsilonproteobacteria	unclassified (derived from Epsilonproteobacteria)	unclassified (derived from Epsilonproteobacteria)	Sulfurovum
+292	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Ochrobactrum
+290	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Chroococcales	unclassified (derived from Chroococcales)	Microcystis
+289	Bacteria	Proteobacteria	Gammaproteobacteria	Cardiobacteriales	Cardiobacteriaceae	Dichelobacter
+288	Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae	Alkalilimnicola
+288	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae	Alteromonas
+286	Bacteria	Aquificae	Aquificae (class)	Aquificales	Aquificaceae	Hydrogenobaculum
+284	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum
+282	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Myoviridae	unclassified (derived from Myoviridae)
+279	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Micromonosporaceae	Micromonospora
+277	Bacteria	Proteobacteria	Deltaproteobacteria	unclassified (derived from Deltaproteobacteria)	unclassified (derived from Deltaproteobacteria)	unclassified (derived from Deltaproteobacteria)
+277	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas
+276	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Nocardioidaceae	Kribbella
+274	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Zymomonas
+274	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis
+274	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas
+269	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Actinosynnemataceae	Actinosynnema
+268	Archaea	Euryarchaeota	Thermoplasmata	Thermoplasmatales	Thermoplasmataceae	Thermoplasma
+267	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Dermabacteraceae	Brachybacterium
+265	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Xylella
+265	Bacteria	Tenericutes	Mollicutes	Entomoplasmatales	Entomoplasmataceae	Mesoplasma
+263	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Micrococcaceae	Rothia
+262	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Janthinobacterium
+259	Bacteria	Proteobacteria	Gammaproteobacteria	Acidithiobacillales	Acidithiobacillaceae	Acidithiobacillus
+259	Bacteria	Gemmatimonadetes	Gemmatimonadetes (class)	Gemmatimonadales	Gemmatimonadaceae	Gemmatimonas
+255	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae	Hyphomonas
+254	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Thermomonosporaceae	Thermomonospora
+251	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Xanthobacter
+251	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bartonellaceae	Bartonella
+250	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Ferrimonadaceae	Ferrimonas
+250	Bacteria	Firmicutes	Bacilli	Bacillales	unclassified (derived from Bacillales)	Gemella
+248	Bacteria	Proteobacteria	Gammaproteobacteria	unclassified (derived from Gammaproteobacteria)	unclassified (derived from Gammaproteobacteria)	Reinekea
+247	Bacteria	Verrucomicrobia	Opitutae	Puniceicoccales	Puniceicoccaceae	Coraliomargarita
+247	Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cyclobacteriaceae	Algoriphagus
+246	Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae	Halorhodospira
+241	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Eremococcus
+240	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Azotobacter
+240	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Microbacteriaceae	Leifsonia
+237	Bacteria	Proteobacteria	Betaproteobacteria	Nitrosomonadales	Nitrosomonadaceae	Nitrosospira
+235	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Chroococcales	unclassified (derived from Chroococcales)	Crocosphaera
+235	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Nocardiopsaceae	Nocardiopsis
+234	Bacteria	Nitrospirae	Nitrospira (class)	Nitrospirales	Nitrospiraceae	Nitrospira
+232	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Catenulisporaceae	Catenulispora
+231	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae	Coxiella
+231	Archaea	Euryarchaeota	Methanomicrobia	Methanocellales	Methanocellaceae	Methanocella
+230	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Geodermatophilaceae	Geodermatophilus
+228	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Providencia
+227	Bacteria	Deinococcus-Thermus	Deinococci	Deinococcales	Trueperaceae	Truepera
+226	Bacteria	Synergistetes	Synergistia	Synergistales	Synergistaceae	Anaerobaculum
+226	Bacteria	Acidobacteria	Acidobacteria (class)	Acidobacteriales	Acidobacteriaceae	Terriglobus
+225	Bacteria	Bacteroidetes	unclassified (derived from Bacteroidetes)	unclassified (derived from Bacteroidetes)	unclassified (derived from Bacteroidetes)	Candidatus Amoebophilus
+224	Bacteria	Chlamydiae	Chlamydiae (class)	Chlamydiales	Chlamydiaceae	Chlamydophila
+221	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Nakamurellaceae	Nakamurella
+220	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Achromobacter
+217	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	Prosthecochloris
+216	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Delftia
+214	Bacteria	Proteobacteria	Betaproteobacteria	unclassified (derived from Betaproteobacteria)	unclassified (derived from Betaproteobacteria)	Candidatus Accumulibacter
+214	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Azorhizobium
+213	Bacteria	Aquificae	Aquificae (class)	Aquificales	Hydrogenothermaceae	Persephonella
+212	Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Chromatiaceae	Allochromatium
+211	Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Laribacter
+210	Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	Methylobacillus
+210	Bacteria	Tenericutes	Mollicutes	Mycoplasmatales	Mycoplasmataceae	Ureaplasma
+209	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Polynucleobacter
+208	Bacteria	Firmicutes	Bacilli	Lactobacillales	Leuconostocaceae	Weissella
+208	Bacteria	Thermotogae	Thermotogae (class)	Thermotogales	unclassified (derived from Thermotogales)	unclassified (derived from Thermotogales)
+206	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Psychroflexus
+205	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	unclassified (derived from Caudovirales)	unclassified (derived from Caudovirales)
+205	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Gordoniaceae	Gordonia
+203	Eukaryota	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	Dictyosteliida	unclassified (derived from Dictyosteliida)	Dictyostelium
+202	Bacteria	Chloroflexi	Ktedonobacteria	Ktedonobacterales	Ktedonobacteraceae	Ktedonobacter
+202	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanohalophilus
+201	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Gluconobacter
+201	Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	unclassified (derived from Methanomicrobiales)	Methanosphaerula
+199	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	unclassified (derived from Burkholderiales)	Leptothrix
+197	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	unclassified (derived from Burkholderiales)	Methylibium
+196	Bacteria	Chlamydiae	Chlamydiae (class)	Chlamydiales	Parachlamydiaceae	Candidatus Protochlamydia
+195	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Oscillatoriales	unclassified (derived from Oscillatoriales)	Oscillatoria
+194	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Granulibacter
+192	Bacteria	Actinobacteria	Actinobacteria (class)	unclassified (derived from Actinobacteria (class))	unclassified (derived from Actinobacteria (class))	unclassified (derived from Actinobacteria (class))
+191	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Micrococcaceae	Kocuria
+191	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Glycomycetaceae	Stackebrandtia
+190	Bacteria	Deinococcus-Thermus	Deinococci	Thermales	Thermaceae	Oceanithermus
+190	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Roseovarius
+189	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	unclassified (derived from Alteromonadales)	Teredinibacter
+185	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Herbaspirillum
+183	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Flavobacteriaceae	Kordia
+180	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Pseudonocardiaceae	Amycolatopsis
+178	Bacteria	Planctomycetes	Planctomycetacia	Planctomycetales	Planctomycetaceae	Pirellula
+175	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Sodalis
+173	Bacteria	Verrucomicrobia	Opitutae	unclassified (derived from Opitutae)	Opitutaceae	unclassified (derived from Opitutaceae)
+172	Bacteria	Lentisphaerae	unclassified (derived from Lentisphaerae)	Lentisphaerales	Lentisphaeraceae	Lentisphaera
+172	Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	Thauera
+171	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Xenorhabdus
+171	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Dermacoccaceae	Kytococcus
+169	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Micrococcaceae	Micrococcus
+169	Archaea	Crenarchaeota	Thermoprotei	Sulfolobales	Sulfolobaceae	Sulfolobus
+168	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Pseudonocardiaceae	Saccharomonospora
+166	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Phenylobacterium
+165	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae	Maricaulis
+164	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Starkeya
+157	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Variovorax
+157	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Gluconacetobacter
+157	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Asticcacaulis
+156	Bacteria	Proteobacteria	Gammaproteobacteria	unclassified (derived from Gammaproteobacteria)	unclassified (derived from Gammaproteobacteria)	Congregibacter
+156	Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Halomonadaceae	Halomonas
+156	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Micrococcaceae	Renibacterium
+152	Archaea	Euryarchaeota	Methanopyri	Methanopyrales	Methanopyraceae	Methanopyrus
+150	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Intrasporangiaceae	Janibacter
+149	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Dinoroseobacter
+149	Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Alcanivoracaceae	Kangiella
+147	Bacteria	Proteobacteria	Betaproteobacteria	Gallionellales	Gallionellaceae	Gallionella
+147	Bacteria	Synergistetes	Synergistia	Synergistales	Synergistaceae	Aminomonas
+146	Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Anaplasmataceae	Wolbachia
+146	Eukaryota	Microsporidia	unclassified (derived from Microsporidia)	unclassified (derived from Microsporidia)	Enterocytozoonidae	Enterocytozoon
+146	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Methylocella
+145	Bacteria	Proteobacteria	Epsilonproteobacteria	Nautiliales	Nautiliaceae	Nautilia
+144	Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Nannocystaceae	Plesiocystis
+144	Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Cystobacteraceae	Stigmatella
+142	Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	Methylotenera
+140	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas
+139	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Buchnera
+139	Archaea	Euryarchaeota	Thermoplasmata	Thermoplasmatales	Ferroplasmaceae	Ferroplasma
+138	Eukaryota	Nematoda	Chromadorea	Rhabditida	Rhabditidae	Caenorhabditis
+138	Bacteria	unclassified (derived from Bacteria)	unclassified (derived from Bacteria)	unclassified (derived from Bacteria)	unclassified (derived from Bacteria)	Candidatus Cloacamonas
+138	Archaea	Crenarchaeota	Thermoprotei	Thermoproteales	Thermoproteaceae	Pyrobaculum
+137	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Oceanicola
+135	Bacteria	Proteobacteria	Betaproteobacteria	Gallionellales	Gallionellaceae	Sideroxydans
+134	Eukaryota	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Neosartorya
+132	Bacteria	Aquificae	Aquificae (class)	Aquificales	Aquificaceae	Thermocrinis
+130	Bacteria	Verrucomicrobia	Spartobacteria	unclassified (derived from Spartobacteria)	unclassified (derived from Spartobacteria)	Chthoniobacter
+130	Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Halothiobacillaceae	Halothiobacillus
+129	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Verrucomicrobium
+129	Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Anaplasmataceae	Ehrlichia
+129	Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae	Nitrococcus
+128	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanohalobium
+128	Bacteria	Verrucomicrobia	unclassified (derived from Verrucomicrobia)	Methylacidiphilales	Methylacidiphilaceae	Methylacidiphilum
+127	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Comamonas
+127	Eukaryota	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Gibberella
+127	Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Haloarcula
+127	Bacteria	Aquificae	Aquificae (class)	Aquificales	Aquificaceae	Hydrogenobacter
+127	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodomicrobium
+123	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobia subdivision 3	unclassified (derived from Verrucomicrobia subdivision 3)
+123	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Oscillatoriales	unclassified (derived from Oscillatoriales)	Arthrospira
+121	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Aurantimonadaceae	Aurantimonas
+120	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Tsukamurellaceae	Tsukamurella
+119	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	unclassified (derived from Verrucomicrobiales)	unclassified (derived from Verrucomicrobiales)
+119	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Oligotropha
+119	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium
+118	Bacteria	Chlamydiae	Chlamydiae (class)	Chlamydiales	Waddliaceae	Waddlia
+117	Bacteria	Chloroflexi	Chloroflexi (class)	Chloroflexales	Oscillochloridaceae	Oscillochloris
+117	Archaea	Euryarchaeota	Thermoplasmata	Thermoplasmatales	Picrophilaceae	Picrophilus
+116	Eukaryota	Chlorophyta	Prasinophyceae	Mamiellales	unclassified (derived from Mamiellales)	Ostreococcus
+114	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Intrasporangiaceae	Intrasporangium
+114	Archaea	Crenarchaeota	Thermoprotei	Thermoproteales	Thermofilaceae	Thermofilum
+113	Eukaryota	Basidiomycota	Tremellomycetes	Tremellales	Tremellaceae	Filobasidiella
+113	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Moritellaceae	Moritella
+112	Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	Methylovorus
+112	Eukaryota	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Aspergillus
+110	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Helicobacteraceae	Sulfuricurvum
+108	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Maritimibacter
+108	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Octadecabacter
+108	Eukaryota	Ascomycota	Schizosaccharomycetes	Schizosaccharomycetales	Schizosaccharomycetaceae	Schizosaccharomyces
+106	Archaea	Korarchaeota	unclassified (derived from Korarchaeota)	unclassified (derived from Korarchaeota)	unclassified (derived from Korarchaeota)	Candidatus Korarchaeum
+102	Bacteria	Proteobacteria	Alphaproteobacteria	unclassified (derived from Alphaproteobacteria)	unclassified (derived from Alphaproteobacteria)	unclassified (derived from Alphaproteobacteria)
+101	Eukaryota	Chlorophyta	Chlorophyceae	Chlamydomonadales	Volvocaceae	Volvox
+100	Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Haloterrigena
+100	Eukaryota	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	Kinetoplastida	Trypanosomatidae	Leishmania
+99	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae	Hirschia
+98	Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	unclassified (derived from Rickettsiales)	Candidatus Pelagibacter
+97	Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Halogeometricum
+96	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae	Oceanicaulis
+95	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Ketogulonicigenium
+95	Bacteria	Proteobacteria	Alphaproteobacteria	Parvularculales	Parvularculaceae	Parvularcula
+93	Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Halorhabdus
+92	Bacteria	Aquificae	Aquificae (class)	Aquificales	Aquificaceae	Hydrogenivirga
+92	Eukaryota	Apicomplexa	Aconoidasida	Haemosporida	unclassified (derived from Haemosporida)	Plasmodium
+91	Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	unclassified (derived from Vibrionaceae)
+91	Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Natronomonas
+90	Bacteria	Actinobacteria	Actinobacteria (class)	Acidimicrobiales	Acidimicrobiaceae	Acidimicrobium
+90	Archaea	Crenarchaeota	Thermoprotei	Thermoproteales	Thermoproteaceae	Caldivirga
+89	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Labrenzia
+88	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Moraxella
+88	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Saccharomyces
+87	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus
+85	Bacteria	Proteobacteria	Gammaproteobacteria	Cardiobacteriales	Cardiobacteriaceae	Cardiobacterium
+85	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Oscillatoriales	unclassified (derived from Oscillatoriales)	Lyngbya
+84	Bacteria	Planctomycetes	Planctomycetacia	Planctomycetales	Planctomycetaceae	Gemmata
+83	Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Lutiella
+80	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	unclassified (derived from Alteromonadales)	unclassified (derived from Alteromonadales)
+79	Eukaryota	Chlorophyta	Chlorophyceae	Chlamydomonadales	Chlamydomonadaceae	Chlamydomonas
+79	Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Halobacterium
+79	Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Haloferax
+79	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Oscillatoriales	unclassified (derived from Oscillatoriales)	Microcoleus
+78	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	unclassified (derived from Rhodobacterales)	unclassified (derived from Rhodobacterales)
+78	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	Blattabacteriaceae	Blattabacterium
+78	Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Orientia
+77	Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Simonsiella
+75	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfohalobiaceae	Desulfonatronospira
+75	Archaea	Euryarchaeota	Archaeoglobi	Archaeoglobales	Archaeoglobaceae	Ferroglobus
+75	Eukaryota	Ascomycota	Sordariomycetes	Magnaporthales	Magnaporthaceae	Magnaporthe
+74	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Beijerinckia
+74	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Acetobacter
+73	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	unclassified (derived from Rhodobacteraceae)
+73	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Loktanella
+73	Eukaryota	Bacillariophyta	Coscinodiscophyceae	unclassified (derived from Coscinodiscophyceae)	Thalassiosiraceae	Thalassiosira
+72	Bacteria	Proteobacteria	Alphaproteobacteria	unclassified (derived from Alphaproteobacteria)	unclassified (derived from Alphaproteobacteria)	Candidatus Puniceispirillum
+72	Bacteria	Chlamydiae	Chlamydiae (class)	Chlamydiales	Chlamydiaceae	Chlamydia
+72	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Hyphomicrobium
+72	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	Methylobacter
+71	Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Natrialba
+71	Eukaryota	Ascomycota	Sordariomycetes	Sordariales	Sordariaceae	Neurospora
+69	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Siphoviridae	Lambda-like viruses
+69	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Nostocales	Nostocaceae	Nodularia
+69	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	unclassified (derived from Burkholderiales)	Thiomonas
+68	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Candidatus Blochmannia
+68	Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Halorubrum
+68	Archaea	Crenarchaeota	Thermoprotei	Desulfurococcales	Desulfurococcaceae	Staphylothermus
+67	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Sulfitobacter
+66	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Dipodascaceae	Yarrowia
+66	Eukaryota	unclassified (derived from Eukaryota)	Heterolobosea	Schizopyrenida	Vahlkampfiidae	Naegleria
+66	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Myoviridae	T4-like viruses
+65	Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Halomicrobium
+65	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	unclassified (derived from Actinomycetales)	Tropheryma
+64	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Alicycliphilus
+64	Bacteria	Proteobacteria	Zetaproteobacteria	Mariprofundales	Mariprofundaceae	Mariprofundus
+64	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Myoviridae	SPO1-like viruses
+63	Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Haloquadratum
+63	Eukaryota	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	Choanoflagellida	Codonosigidae	Monosiga
+62	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Nakaseomyces
+61	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Debaryomycetaceae	Scheffersomyces
+59	Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Oceanospirillaceae	Neptuniibacter
+59	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseomonas
+58	Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Oceanospirillaceae	Bermanella
+58	Eukaryota	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Emericella
+58	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Pseudovibrio
+57	Eukaryota	unclassified (derived from Eukaryota)	Oligohymenophorea	Peniculida	Parameciidae	Paramecium
+57	Eukaryota	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	Peronosporales	unclassified (derived from Peronosporales)	Phytophthora
+55	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Segniliparaceae	Segniliparus
+55	Eukaryota	Basidiomycota	Ustilaginomycetes	Ustilaginales	Ustilaginaceae	Ustilago
+54	Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Thiotrichaceae	Beggiatoa
+54	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Nostocales	Nostocaceae	Cylindrospermopsis
+54	Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Anaplasmataceae	Anaplasma
+53	Archaea	Crenarchaeota	Thermoprotei	Desulfurococcales	Pyrodictiaceae	Hyperthermus
+53	Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Kingella
+53	Eukaryota	Ascomycota	Dothideomycetes	Pleosporales	Phaeosphaeriaceae	Phaeosphaeria
+51	Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Halalkalicoccus
+50	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Limnobacter
+49	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	unclassified (derived from Saccharomycetales)	Candida
+49	Eukaryota	Chlorophyta	Prasinophyceae	Mamiellales	unclassified (derived from Mamiellales)	Micromonas
+49	Archaea	Thaumarchaeota	unclassified (derived from Thaumarchaeota)	Nitrosopumilales	Nitrosopumilaceae	Nitrosopumilus
+49	Eukaryota	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Penicillium
+49	Eukaryota	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	Kinetoplastida	Trypanosomatidae	Trypanosoma
+48	Eukaryota	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	Perkinsida	Perkinsidae	Perkinsus
+44	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Candidatus Hamiltonella
+44	Eukaryota	Bacillariophyta	Bacillariophyceae	Naviculales	Phaeodactylaceae	Phaeodactylum
+43	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Citreicella
+43	Archaea	Crenarchaeota	Thermoprotei	Desulfurococcales	Desulfurococcaceae	Aeropyrum
+43	Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Eikenella
+43	Bacteria	Chlamydiae	Chlamydiae (class)	Chlamydiales	Parachlamydiaceae	Parachlamydia
+43	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Sagittula
+42	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Chroococcales	unclassified (derived from Chroococcales)	unclassified (derived from Chroococcales)
+42	Archaea	Crenarchaeota	Thermoprotei	Sulfolobales	Sulfolobaceae	Metallosphaera
+41	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Eremothecium
+39	Eukaryota	Ascomycota	Leotiomycetes	Helotiales	Sclerotiniaceae	Botryotinia
+39	Archaea	Crenarchaeota	Thermoprotei	Desulfurococcales	Desulfurococcaceae	Ignicoccus
+38	Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae	Methylophaga
+37	Archaea	Crenarchaeota	Thermoprotei	Desulfurococcales	Desulfurococcaceae	Ignisphaera
+37	Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Anaplasmataceae	Neorickettsia
+37	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Pelagibaca
+36	Bacteria	Proteobacteria	Epsilonproteobacteria	Nautiliales	Nautiliaceae	Caminibacter
+36	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Enhydrobacter
+35	Archaea	Crenarchaeota	Thermoprotei	Desulfurococcales	Desulfurococcaceae	Desulfurococcus
+35	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylocystaceae	Methylosinus
+35	Eukaryota	Ascomycota	Sordariomycetes	Sordariales	Lasiosphaeriaceae	Podospora
+34	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	unclassified (derived from Campylobacterales)	unclassified (derived from Campylobacterales)
+34	Eukaryota	Ascomycota	Eurotiomycetes	Onygenales	unclassified (derived from Onygenales)	Coccidioides
+34	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Roseibium
+34	Eukaryota	Placozoa	unclassified (derived from Placozoa)	unclassified (derived from Placozoa)	unclassified (derived from Placozoa)	Trichoplax
+33	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Nocardioidaceae	Aeromicrobium
+33	Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanococcaceae	Methanothermococcus
+33	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Debaryomycetaceae	Meyerozyma
+33	Eukaryota	Basidiomycota	Agaricomycetes	Agaricales	Schizophyllaceae	Schizophyllum
+31	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Candidatus Liberibacter
+31	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Hoeflea
+30	Eukaryota	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	Hexamitidae	Giardia
+29	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Aurantimonadaceae	Fulvimarina
+27	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Candidatus Regiella
+27	Eukaryota	Apicomplexa	Coccidia	Eucoccidiorida	Cryptosporidiidae	Cryptosporidium
+27	Eukaryota	unclassified (derived from Eukaryota)	Oligohymenophorea	Hymenostomatida	Tetrahymenidae	Tetrahymena
+26	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Metschnikowiaceae	Clavispora
+26	Eukaryota	Basidiomycota	Agaricomycetes	Agaricales	Psathyrellaceae	Coprinopsis
+26	Bacteria	Proteobacteria	Gammaproteobacteria	unclassified (derived from Gammaproteobacteria)	unclassified (derived from Gammaproteobacteria)	Endoriftia
+26	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Kluyveromyces
+26	Eukaryota	Hemichordata	Enteropneusta	unclassified (derived from Enteropneusta)	Harrimaniidae	Saccoglossus
+25	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Oceanibulbus
+25	Eukaryota	Ascomycota	Leotiomycetes	Helotiales	Sclerotiniaceae	Sclerotinia
+25	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Tetragenococcus
+24	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Podoviridae	unclassified (derived from Podoviridae)
+24	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Nostocales	Nostocaceae	Raphidiopsis
+24	Eukaryota	Apicomplexa	Coccidia	Eucoccidiorida	Sarcocystidae	Toxoplasma
+23	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Afipia
+23	Eukaryota	unclassified (derived from Eukaryota)	Cryptophyta	Pyrenomonadales	Geminigeraceae	Guillardia
+23	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Debaryomycetaceae	Lodderomyces
+22	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Wigglesworthia
+22	Bacteria	Candidatus Poribacteria	unclassified (derived from Candidatus Poribacteria)	unclassified (derived from Candidatus Poribacteria)	unclassified (derived from Candidatus Poribacteria)	unclassified (derived from Candidatus Poribacteria)
+22	Bacteria	Actinobacteria	Actinobacteria (class)	Actinomycetales	Dermacoccaceae	Dermacoccus
+22	Eukaryota	Basidiomycota	Agaricomycetes	Agaricales	Tricholomataceae	Laccaria
+21	Archaea	Thaumarchaeota	unclassified (derived from Thaumarchaeota)	Cenarchaeales	Cenarchaeaceae	Cenarchaeum
+20	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Citromicrobium
+20	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Podoviridae	Epsilon15-like viruses
+20	Eukaryota	unclassified (derived from Eukaryota)	Bangiophyceae	Bangiales	Bangiaceae	Porphyra
+20	Eukaryota	Ascomycota	Pezizomycetes	Pezizales	Tuberaceae	Tuber
+19	Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	unclassified (derived from Vibrionales)	unclassified (derived from Vibrionales)
+19	Eukaryota	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Talaromyces
+18	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Debaryomycetaceae	Debaryomyces
+18	Eukaryota	Ascomycota	Eurotiomycetes	Onygenales	Ajellomycetaceae	Ajellomyces
+18	Eukaryota	Basidiomycota	Exobasidiomycetes	Malasseziales	Malasseziaceae	Malassezia
+18	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Thalassobium
+17	Bacteria	Proteobacteria	Betaproteobacteria	unclassified (derived from Betaproteobacteria)	unclassified (derived from Betaproteobacteria)	unclassified (derived from Betaproteobacteria)
+17	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Ahrensia
+16	Eukaryota	Ascomycota	Sordariomycetes	Phyllachorales	unclassified (derived from Phyllachorales)	Verticillium
+16	Archaea	Crenarchaeota	Thermoprotei	Thermoproteales	Thermoproteaceae	Vulcanisaeta
+16	Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	unclassified (derived from Methylophilales)	unclassified (derived from Methylophilales)
+16	Eukaryota	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Nectria
+16	Archaea	Crenarchaeota	Thermoprotei	Desulfurococcales	Desulfurococcaceae	Thermosphaera
+16	Eukaryota	Ascomycota	Eurotiomycetes	Onygenales	Onygenaceae	Uncinocarpus
+15	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Zygosaccharomyces
+15	Bacteria	Cyanobacteria	unclassified (derived from Cyanobacteria)	Chroococcales	unclassified (derived from Chroococcales)	Cyanobium
+15	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Lachancea
+15	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Anelloviridae	Alphatorquevirus
+15	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Pichia
+15	Eukaryota	Apicomplexa	Aconoidasida	unclassified (derived from Aconoidasida)	Theileriidae	Theileria
+14	Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	unclassified (derived from Rickettsiales)	unclassified (derived from Rickettsiales)
+14	Bacteria	Bacteroidetes	Flavobacteria	Flavobacteriales	unclassified (derived from Flavobacteriales)	Candidatus Sulcia
+14	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Podoviridae	Phi29-like viruses
+14	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae	Rickettsiella
+14	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Podoviridae	SP6-like viruses
+13	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Myoviridae	phiKZ-like viruses
+13	Eukaryota	unclassified (derived from Eukaryota)	Bangiophyceae	Cyanidiales	Cyanidiaceae	Cyanidium
+12	Eukaryota	Nematoda	Chromadorea	Spirurida	Onchocercidae	Brugia
+12	Eukaryota	unclassified (derived from Eukaryota)	Glaucocystophyceae	unclassified (derived from Glaucocystophyceae)	Cyanophoraceae	Cyanophora
+11	Archaea	Crenarchaeota	Thermoprotei	Acidilobales	Acidilobaceae	Acidilobus
+11	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Myoviridae	P2-like viruses
+11	Eukaryota	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Arthroderma
+10	Eukaryota	unclassified (derived from Eukaryota)	Bangiophyceae	Cyanidiales	Cyanidiaceae	Cyanidioschyzon
+10	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Phaeobacter
+10	Eukaryota	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Vanderwaltozyma
+9	Eukaryota	Ascomycota	Sordariomycetes	Sordariales	Chaetomiaceae	Chaetomium
+9	Eukaryota	Chlorophyta	Trebouxiophyceae	Chlorellales	Chlorellaceae	Chlorella
+8	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Candidatus Riesia
+8	Eukaryota	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Pyrenophora
+8	Archaea	Crenarchaeota	Thermoprotei	Thermoproteales	Thermoproteaceae	Thermoproteus
+7	Eukaryota	Apicomplexa	Aconoidasida	unclassified (derived from Aconoidasida)	Babesiidae	Babesia
+7	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Siphoviridae	L5-like viruses
+7	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Siphoviridae	SPbeta-like viruses
+6	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Podoviridae	Bpp-1-like viruses
+6	Eukaryota	unclassified (derived from Eukaryota)	Florideophyceae	Gracilariales	Gracilariaceae	Gracilaria
+6	Eukaryota	Basidiomycota	Agaricomycetes	Agaricales	Marasmiaceae	Moniliophthora
+5	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Phycodnaviridae	Chlorovirus
+5	Eukaryota	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	Isochrysidales	Noelaerhabdaceae	Emiliania
+5	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Podoviridae	P22-like viruses
+5	Eukaryota	Ascomycota	Eurotiomycetes	Onygenales	unclassified (derived from Onygenales)	Paracoccidioides
+5	Eukaryota	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	Euglyphida	Paulinellidae	Paulinella
+5	Eukaryota	Basidiomycota	Agaricomycetes	Polyporales	Coriolaceae	Postia
+4	Eukaryota	Nematoda	Chromadorea	Spirurida	Onchocercidae	Loa
+4	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Podoviridae	N4-like viruses
+4	Archaea	Nanoarchaeota	unclassified (derived from Nanoarchaeota)	unclassified (derived from Nanoarchaeota)	unclassified (derived from Nanoarchaeota)	Nanoarchaeum
+3	Eukaryota	Microsporidia	unclassified (derived from Microsporidia)	unclassified (derived from Microsporidia)	Unikaryonidae	Encephalitozoon
+3	Eukaryota	Chlorophyta	Trebouxiophyceae	Ctenocladales	Ctenocladaceae	Leptosira
+3	Bacteria	Nitrospirae	Nitrospira (class)	Nitrospirales	Nitrospiraceae	Leptospirillum
+3	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Eupodiscales	Eupodiscaceae	Odontella
+2	Eukaryota	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	unclassified (derived from Eukaryota)	Histionidae	Reclinomonas
+2	Viruses	unclassified (derived from Viruses)	unclassified (derived from Viruses)	Caudovirales	Podoviridae	T7-like viruses
