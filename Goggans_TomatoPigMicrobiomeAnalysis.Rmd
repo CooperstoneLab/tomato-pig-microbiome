@@ -1,12 +1,32 @@
 ---
-title: "Goggans et al., INSERT JOURNAL 2022, Microbiome Analysis Code"
-author: "Mallory Goggans, Cristian Quiroz-Moreno, Emma Bilbrey and Jessica Cooperstone"
-output: github_document
+title: "Goggans et al., Microbiology Spectrum 2022, Microbiome Analysis Code"
+author: "Mallory Goggans, Cristian D. Quiroz-Moreno, Emma Bilbrey and Jessica Cooperstone"
+output:
+  github_document:
+    toc: true
+    toc_depth: 5
 ---
 
 # Introduction
 
-INSERT ABSTRACT
+Diets rich in fruits and vegetables have been shown to exert positive effects on the gut microbiome. However, little is known about the specific effect of individual fruits or vegetables on gut microbe profiles. This study aims to elucidate the effects of tomato consumption on the gut microbiome, as tomatoes account for 22% of vegetable consumption in Western diets, and their consumption has been associated with positive health outcomes. Using piglets as a physiologically relevant model of human metabolism, 20 animals were assigned to either a control or a tomato powder-supplemented diet (both macronutrient matched and isocaloric) for 14 days. The microbiome was sampled rectally at three time points: day 0 (baseline), day 7 (midpoint), and day 14 (end of study). DNA was sequenced using shotgun metagenomics, and reads were annotated using MG-RAST. There were no differences in body weight or feed intake between our two treatment groups. There was a microbial shift which included a higher ratio of Bacteroidota to Bacillota (formerly known as Bacteroidetes and Firmicutes, respectively) and higher alpha-diversity in tomato-fed animals, indicating a shift to a more desirable phenotype. Analyses at both the phylum and genus levels showed global microbiome profile changes (permutational multivariate analysis of variance [PERMANOVA], P ≤ 0.05) over time but not with tomato consumption. These data suggest that short-term tomato consumption can beneficially influence the gut microbial profile, warranting further investigation in humans.
+
+[https://doi.org/10.1128/spectrum.02506-22](https://doi.org/10.1128/spectrum.02506-22) 
+
+In this document you can find all our code and analysis for this paper.
+
+### Authors
+Mallory L. Goggans1, Emma A. Bilbrey2, Cristian D. Quiroz-Moreno2, David M. Francis3, Sheila K. Jacobi4, Jasna Kovac5,6, Jessica L. Cooperstone1,2*
+
+1Food Science and Technology, The Ohio State University, Columbus, OH 43210.
+2Horticulture and Crop Science, The Ohio State University, Columbus, OH 43210.
+3Horticulture and Crop Science, The Ohio State University, Wooster, OH 44691.
+4Animal Sciences, The Ohio State University, Columbus, OH 43210.
+5Food Science, The Pennsylvania State University, University Park, PA, 16802.
+6 Microbiome Center, Huck Institutes of the Life Sciences, The Pennsylvania State University, University Park, PA 16802.
+
+*To whom correspondence should be addressed, cooperstone.1@osu.edu 
+
 
 Our final taxa used in this anaylsis:
 -   included from Bacteria, Archaea, Eukaryota and viruses
@@ -16,7 +36,7 @@ Our final taxa used in this anaylsis:
 In the end: Our final dataset has 45 phyla and 755 genera.
 
 ### Load libraries
-```{r, message = FALSE}
+```{r eval = FALSE, message = FALSE}
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
@@ -59,19 +79,20 @@ Some of our analyses include permutations, so let's set a seed so we get consist
 
 ```{r}
 set.seed(2021) # hoping this seed is better than 2020 :)
+# ok we were optimistic that this would get out in 2021 :(
 ```
 
 ### Read in metadata
 
 Input files can be found as supplementary information in:
 
--   UPDATE WITH MALLORY'S PAPER INFO
+-   Goggans et al., Microbiology Spectrum, 2022, doi: [https://doi.org/10.1128/spectrum.02506-22](https://doi.org/10.1128/spectrum.02506-22)
 
-The data read in chunk below enables loading our data without any outside-of-R handling. In "Metadata" tab of Supplementary Information.
+The data read in chunk below enables loading our data without any outside-of-R handling. In TableS2.SampleMetadata tab of Supplementary Information you can find our metadat, which you can get in our [paper](https://doi.org/10.1128/spectrum.02506-22), or [here](https://journals.asm.org/doi/suppl/10.1128/spectrum.02506-22/suppl_file/spectrum.02506-22-s0001.xlsx).
 
 ```{r}
 # upload metadata
-AllSamples.Metadata <- read_excel("../Goggans_etal_2021_tomato_pig_microbiome_WGS.xlsx",
+AllSamples.Metadata <- read_excel("data/spectrum.02506-22-s0001.xlsx",
                                        sheet = "TableS2.SampleMetadata")
 
 str(AllSamples.Metadata)
@@ -97,10 +118,10 @@ str(AllSamples.Metadata)
 
 # Genera-level annotation
 
-Read in genera level data, annotated from MG-RAST. In "Genera" tab of Supplementary Information.
+Read in genera level data, annotated from MG-RAST. In TableS4.Genera tab of Supplementary Information you can find genera level assignment, which you can get in our [paper](https://doi.org/10.1128/spectrum.02506-22), or [here](https://journals.asm.org/doi/suppl/10.1128/spectrum.02506-22/suppl_file/spectrum.02506-22-s0001.xlsx)
 
 ```{r}
-Genus.AllSamples.Counts <- read_excel("../Goggans_etal_2021_tomato_pig_microbiome_WGS.xlsx",
+Genus.AllSamples.Counts <- read_excel("data/spectrum.02506-22-s0001.xlsx",
                                        sheet = "TableS4.Genera")
 
 str(Genus.AllSamples.Counts)
@@ -1000,7 +1021,7 @@ PCoA_genera_20zeros_allsamples
 ```
 
 ```{r, eval = FALSE}
-ggsave("Figures/BetaDiversity_PCoA_Genera_allsamples.png", 
+ggsave("Figures/BetaDiversity_PCoA_Genera_allsamples.svg", 
        plot = PCoA_genera_20zeros_allsamples, 
        dpi = 800, 
        width = 10, 
@@ -1039,7 +1060,7 @@ PCoA_genera_20zeros_facetbytime
 ```
 
 ```{r, eval = FALSE}
-ggsave("Figures/BetaDiversity_PCoA_Genera_FacetByTimePoint.png", 
+ggsave("Figures/BetaDiversity_PCoA_Genera_FacetByTimePoint.svg", 
        plot = PCoA_genera_20zeros_facetbytime, 
        dpi = 800, 
        width = 10, 
@@ -1071,7 +1092,7 @@ PCoA_genera_20zeros_facetbydiet
 ```
 
 ```{r, eval = FALSE}
-ggsave("Figures/BetaDiversity_PCoA_Genera_FacetByDiet.png", 
+ggsave("Figures/BetaDiversity_PCoA_Genera_FacetByDiet.svg", 
        plot = PCoA_genera_20zeros_facetbydiet, 
        dpi = 800, 
        width = 10, 
@@ -1353,7 +1374,7 @@ alpha.diversity.genera.bydiet
 ```
 
 ```{r, eval = FALSE}
-ggsave("Figures/AlphaDiversityGenera_ByDiet_Boxplot.png", 
+ggsave("Figures/AlphaDiversityGenera_ByDiet_Boxplot.svg", 
        plot = alpha.diversity.genera.bydiet, 
        dpi = 800, 
        width = 10, 
@@ -1386,7 +1407,7 @@ alpha.diversity.genera.bytime
 ```
 
 ```{r, eval = FALSE}
-ggsave("Figures/AlphaDiversityGenera_ByTime_Boxplot.png", 
+ggsave("Figures/AlphaDiversityGenera_ByTime_Boxplot.svg", 
        plot = alpha.diversity.genera.bytime, 
        dpi = 800, 
        width = 7, 
@@ -1896,10 +1917,10 @@ intersect(sig_day14_genera_aldex2$Genera, sig_tomato_genera_aldex2$Genera)
 
 # Phyla-level annotation
 
-Read in phyla level data, annotated from MG-RAST. In "Phyla" tab of Supplementary Information.
+Read in phyla level data, annotated from MG-RAST. In TableS3.Phyla tab of Supplementary Information you can find phyla level assignment, which you can get in our [paper](https://doi.org/10.1128/spectrum.02506-22), or [here](https://journals.asm.org/doi/suppl/10.1128/spectrum.02506-22/suppl_file/spectrum.02506-22-s0001.xlsx)
 
 ```{r}
-Phyla.Counts <- read_excel("../Goggans_etal_2021_tomato_pig_microbiome_WGS.xlsx",
+Phyla.Counts <- read_excel("data/spectrum.02506-22-s0001.xlsx",
                                        sheet = "TableS3.Phyla")
 
 str(Phyla.Counts)
@@ -2517,7 +2538,7 @@ PCoA_phyla_20zeros_allsamples
 ```
 
 ```{r, eval = FALSE}
-ggsave("Figures/BetaDiversity_PCoA_Phyla_allsamples.png", 
+ggsave("Figures/BetaDiversity_PCoA_Phyla_allsamples.svg", 
        plot = PCoA_phyla_20zeros_allsamples, 
        dpi = 800, 
        width = 10, 
@@ -2556,7 +2577,7 @@ PCoA_phyla_20zeros_facetbytime
 ```
 
 ```{r, eval = FALSE}
-ggsave("Figures/BetaDiversity_PCoA_Phyla_FacetByTimePoint.png", 
+ggsave("Figures/BetaDiversity_PCoA_Phyla_FacetByTimePoint.svg", 
        plot = PCoA_phyla_20zeros_facetbytime, 
        dpi = 800, 
        width = 10, 
@@ -2588,7 +2609,7 @@ PCoA_phyla_20zeros_facetbydiet
 ```
 
 ```{r, eval = FALSE}
-ggsave("Figures/BetaDiversity_PCoA_Phyla_FacetByDiet.png", 
+ggsave("Figures/BetaDiversity_PCoA_Phyla_FacetByDiet.svg", 
        plot = PCoA_phyla_20zeros_facetbydiet, 
        dpi = 800, 
        width = 10, 
@@ -2929,7 +2950,7 @@ BtoF_Boxplot
 Saving
 
 ```{r, eval = FALSE}
-ggsave("Figures/BacteroidotatoBacilottaRatio_Boxplot.png", 
+ggsave("Figures/BacteroidotatoBacilottaRatio_Boxplot.svg", 
        plot = BtoF_Boxplot, 
        dpi = 800, 
        width = 7, 
@@ -3022,7 +3043,7 @@ BandF_Boxplot
 Saving
 
 ```{r, eval = FALSE}
-ggsave("Figures/BacteroidotaBacilotta_Boxplot.png", 
+ggsave("Figures/BacteroidotaBacilotta_Boxplot.svg", 
        plot = BandF_Boxplot, 
        dpi = 800, 
        width = 7, 
@@ -3206,7 +3227,7 @@ alpha.diversity.phyla.bydiet
 ```
 
 ```{r, eval = FALSE}
-ggsave("Figures/AlphaDiversityPhyla_ByDiet_Boxplot.png", 
+ggsave("Figures/AlphaDiversityPhyla_ByDiet_Boxplot.svg", 
        plot = alpha.diversity.phyla.bydiet, 
        dpi = 800, 
        width = 10, 
@@ -3234,7 +3255,7 @@ alpha.diversity.phyla.bytime
 ```
 
 ```{r, eval = FALSE}
-ggsave("Figures/AlphaDiversityPhyla_ByTime_Boxplot.png", 
+ggsave("Figures/AlphaDiversityPhyla_ByTime_Boxplot.svg", 
        plot = alpha.diversity.phyla.bytime, 
        dpi = 800, 
        width = 7, 
@@ -3691,3 +3712,96 @@ length(rownames(filt.Phyla.Tomato.ByTime.aldex.sig))
 ```
 
 1 sig phyla, unclassified (derived from Bacteria)
+
+## Fiddling with figures
+
+### Fig2 Beta diversity 
+Phyla and genera, subset by time point
+```{r}
+library(patchwork)
+
+(PCoA_phyla_20zeros_facetbytime / PCoA_genera_20zeros_facetbytime) + plot_annotation(tag_levels = 'A')
+```
+
+```{r, eval = FALSE}
+ggsave("Figures/Fig2.svg", 
+       width = 10, 
+       height = 8)
+```
+
+### Fig3 BtoB
+```{r}
+(bacteriodetes <- RelAbund.Phyla.Filt.zerofilt.withother.BtoF.long.OnlyBandF %>%
+  filter(phylum == "Bacteroidetes") %>%
+  ggplot(aes(x=Diet, y=rel_abund, fill=Diet_By_Time_Point))+
+  geom_boxplot(outlier.shape = NA)+
+  geom_point(aes(fill = Diet_By_Time_Point), color = "black", position=position_jitterdodge(), alpha = 0.7) +
+  geom_segment(aes(x = 0.75, xend = 1.25, y = 0.5, yend = 0.5)) +
+  annotate(geom = "text", x = 1, y = 0.52, label = "P = 0.044") +
+  scale_fill_manual(values=c("skyblue1", "dodgerblue", "royalblue4", "sienna1","firebrick3","tomato4"))+
+  ylim(0, 0.75) +
+  theme_bw() +
+  labs(x=NULL, 
+       y= "Relative Abundance", 
+       fill="Diet & Time Point",
+       title = "Bacteriodota") +
+  theme(axis.text.x = element_text(size = 11, color = "black"), 
+        axis.text.y = element_text(color = "black"), 
+        panel.grid.minor = element_blank(),
+        plot.title = element_text(hjust = 0.5),
+        legend.position = "none",
+        panel.border = element_blank()))
+
+(firmicutes <- RelAbund.Phyla.Filt.zerofilt.withother.BtoF.long.OnlyBandF %>%
+  filter(phylum == "Firmicutes") %>%
+  ggplot(aes(x=Diet, y=rel_abund, fill=Diet_By_Time_Point))+
+  geom_boxplot(outlier.shape = NA)+
+  geom_point(aes(fill = Diet_By_Time_Point), color = "black", position=position_jitterdodge(), alpha = 0.7) +
+  geom_segment(aes(x = 0.75, xend = 1.25, y = 0.68, yend = 0.68)) +
+  annotate(geom = "text", x = 1, y = 0.70, label = "P = 0.03") +
+  scale_fill_manual(values=c("skyblue1", "dodgerblue", "royalblue4", "sienna1","firebrick3","tomato4"))+
+  ylim(0, 0.75) +
+  theme_bw() +
+  labs(x=NULL, 
+       y= "Relative Abundance", 
+       fill="Diet & Time Point",
+       title = "Bacillota") +
+  theme(axis.text.x = element_text(size = 11, color = "black"), 
+        axis.text.y = element_text(color = "black"), 
+        panel.grid.minor = element_blank(),
+        plot.title = element_text(hjust = 0.5),
+        legend.position = "none",
+        panel.border = element_blank()))
+
+(BtoFplot <- BtoF_Boxplot +
+  geom_segment(aes(x = 0.75, xend = 1.25, y = 0.9, yend = 0.9)) +
+  annotate(geom = "text", x = 1, y = 0.92, label = "P = 0.033"))
+
+bacteriodetes + firmicutes + BtoFplot
+```
+
+```{r, eval = FALSE}
+ggsave("Figures/Fig3.svg", 
+       width = 10, 
+       height = 6)
+```
+
+### Fig4 alpha-diversity
+
+```{r}
+(alpha_phyla <- alpha.diversity.phyla.bytime +
+  geom_segment(aes(x = 2.75, xend = 3.25, y = 1.3, yend = 1.3)) +
+  annotate(geom = "text", x = 3, y = 1.32, label = "P = 0.011") +
+  theme(legend.position = "none"))
+
+(alpha_genera <- alpha.diversity.genera.bytime)
+
+(alpha_phyla + alpha_genera) + plot_annotation(tag_levels = 'A') 
+```
+
+```{r, eval = FALSE}
+ggsave("Figures/Fig4.svg", 
+       width = 10, 
+       height = 6)
+```
+
